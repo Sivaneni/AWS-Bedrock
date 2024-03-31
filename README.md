@@ -13,7 +13,11 @@ conda activate venv
 
 1. **Configure IAM in AWS Console**:
    - Log in to the [AWS Management Console](https://aws.amazon.com/console/).
-   - Set up an IAM user with the necessary permissions (e.g., Amazon S3, Lambda, etc.).
+   - Set up an IAM user with the necessary permissions (user with policy to access aws bedrock and get the access key ID,secret access key by opting as below).
+     ![image](https://github.com/Sivaneni/AWS-Bedrock/assets/20778407/aea74b6a-79bb-4ff5-8c2f-c95ef1bf799e)
+   
+
+
 
 2. **Install Required Python Packages**:
    - Ensure that you have installed the required packages (such as `boto3` and `awscli`) by running:
@@ -29,7 +33,8 @@ conda activate venv
    - Provide your **access key ID**, **secret access key**, **region**, and **output format**.
 
 4. **Grant Access to Necessary AWS Services**:
-   - In the AWS Console, grant access to all the services (e.g., S3, Lambda) that your Python code will interact with.
+  - get access to model
+     ![image](https://github.com/Sivaneni/AWS-Bedrock/assets/20778407/4e5aedb8-05ca-41c2-86cd-68310e083b9c)
 
 5. **Sample Code Files**:
    - Check out the following sample code files:
